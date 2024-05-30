@@ -1,0 +1,26 @@
+
+
+
+/* resimler */
+#flg{
+    position: relative;
+  
+    margin: 20px;
+    height: 350px;
+    width: 30px; 
+    border-radius: 20px 20px 20px 20px;
+    transition: 3s;
+
+     
+   
+
+}
+
+#flg:hover{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    transition: 3s;
+    
+    
+}
