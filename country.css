@@ -1,26 +1,75 @@
 
 
-
-/* resimler */
-#flg{
-    position: relative;
-  
-    margin: 20px;
+/* ülkelerin bayrak resimleri */
+img{
+    
+    top: 50px;
+    left: 50px;
     height: 350px;
-    width: 30px; 
     border-radius: 20px 20px 20px 20px;
+    width: 30px; 
     transition: 3s;
-
-     
-   
-
+    overflow: 80px;
+    display: flex;
+    
+    
+    
+  
 }
-
-#flg:hover{
-    position: relative;
+img:hover{
+    
+     top: 50px;
+    right: 50px;
     height: 350px;
     width: 350px;
     transition: 3s;
     
     
+}
+
+
+.flg{
+    top: 50px;
+    left: 50px;
+    height: 350px;
+    border-radius: 20px 20px 20px 20px;
+
+    width: 30px; 
+    transition: 3s;
+    
+    
+}
+
+.flg:hover .yazıı{
+   
+    top: 50px;
+    right: 50px;
+    height: 350px;
+    width: 350px;
+    transition: 3s;
+    opacity: 1;
+ 
+
+    
+
+
+}
+
+/* yazı */
+
+p{
+
+    top: 50px;
+    right: 50px;
+    float: right;
+
+}
+.yazıı{
+    position: relative; 
+    float: ;
+    top: 80px;
+    right: 50px;
+    opacity: 0;
+    transition: 3s;
+
 }
