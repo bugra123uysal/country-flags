@@ -9,9 +9,7 @@ img{
     border-radius: 20px 20px 20px 20px;
     width: 30px; 
     transition: 3s;
-    overflow: 80px;
-    display: flex;
-    
+   
     
     
   
@@ -29,19 +27,22 @@ img:hover{
 
 
 .flg{
+   float: left;
     top: 50px;
     left: 50px;
     height: 350px;
     border-radius: 20px 20px 20px 20px;
-
     width: 30px; 
     transition: 3s;
+    display: flex;
+    margin-right: 10px;
     
     
 }
 
 .flg:hover .yazıı{
-   
+
+    float: right;
     top: 50px;
     right: 50px;
     height: 350px;
@@ -50,25 +51,16 @@ img:hover{
     opacity: 1;
  
 
-    
-
 
 }
 
 /* yazı */
 
-p{
 
-    top: 50px;
-    right: 50px;
-    float: right;
-
-}
 .yazıı{
-    position: relative; 
-    float: ;
+    position: absolute;
     top: 80px;
-    right: 50px;
+    left: 1050px;
     opacity: 0;
     transition: 3s;
 
